@@ -23,6 +23,7 @@ h2{
     color: white;
 }
 .footero{
+    padding: 0 auto;
     margin: 0 35%;
 }
 * {
