@@ -7,7 +7,7 @@ body{
 .banner{
     margin: 0 35%;
     color: white;
-    text-align: left;
+    text-align: center;
 }
 .list{
     margin: 0 35%;
@@ -19,10 +19,12 @@ img {
     width: 20%;
 }
 h2{
-
+    margin: 0 30%;
+    color: white;
 }
 .footero{
-    
+    margin: 5% 35%;
+    color: white;
 }
 * {
     border: 2px solid red;
