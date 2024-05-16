@@ -1,0 +1,23 @@
+body{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #5ca1d7;
+}
+.banner{
+    margin: 0 35%;
+    color: white;
+    text-align: left;
+}
+.list{
+    margin: 0 35%;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+* {
+    border: 2px solid red;
+}
