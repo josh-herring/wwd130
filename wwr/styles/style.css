@@ -8,6 +8,7 @@
 nav a{
     color: #589D6B;
     text-align: center;
+    text-decoration: none;
 }
 .button-box{
     text-align: center;
@@ -29,6 +30,7 @@ nav a:hover {
     color: white;
 }
 .book, .join{
+    text-decoration: none;
     color: white;
     background-color: #589D6B;
 }
@@ -59,8 +61,18 @@ h4{
     color: white;
 }
 footer a{
+    text-decoration: none;
     color: white;
 }
 footer a:hover{
     color: white;
+}
+.icon {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
