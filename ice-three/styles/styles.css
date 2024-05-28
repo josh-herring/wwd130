@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.grid-con{
+    align-content: stretch;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.grid-1{
+    font-size: 500%;
+    z-index: 9;
+    place-self: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-2{
+    width: 80%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: gray;
+    color: darkred;
+}
+*{
+    border: 2px solid red;
+}
