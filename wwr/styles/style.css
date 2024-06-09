@@ -109,6 +109,8 @@ h2 {
     margin: 0;
 }
 #logo_link {
+    justify-self: center;
+    align-self: center;
     padding-top: 5px;
 }
 footer .social img {
