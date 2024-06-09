@@ -32,6 +32,8 @@ body {
     padding: 0;
 }
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
@@ -123,4 +125,8 @@ main section img {
 }
 .mountains{
     margin: 100px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
