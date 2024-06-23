@@ -181,6 +181,98 @@ nav {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.banner-river{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 90px 250px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.river-img{
+    width: 50%;
+}
+.banner-river-img{
+    height: 480px;
+    width: 900px;
+    align-self: center;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+.banner-river-head{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.banner-river-text{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.river-home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.river-img-gray{
+
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.river-img-grand{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.river-img-salmon{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.river-img-chat{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+.river-head-gray{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.river-head-grand{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.river-head-salmon{
+    grid-column: 1/2;
+    grid-row: 8/9;
+}
+.river-head-chat{
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+.river-text-gray{
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+.river-text-grand{
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+.river-text-salmon{
+    grid-column: 1/2;
+    grid-row: 9/11;
+}
+.river-text-chat{
+    grid-column: 2/3;
+    grid-row: 9/11;
+}
+*{
+    border: 2px solid red;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
